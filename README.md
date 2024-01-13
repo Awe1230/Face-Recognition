@@ -1,9 +1,9 @@
 Virtual keyboard and mouse using MediaPipe and Opencv
 
 Installations:
-  -Pynput
-  -Opencv
-  -MediaPipe
+  - Pynput
+  - Opencv
+  - MediaPipe
 
 Directions:
   - Mouse
