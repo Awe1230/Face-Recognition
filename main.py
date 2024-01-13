@@ -1,5 +1,3 @@
-import sys
-sys.path.append("./")
 from Classes.button import Button
 import cv2
 from pynput.keyboard import Key, Controller
