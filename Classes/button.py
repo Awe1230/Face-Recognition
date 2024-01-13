@@ -9,8 +9,8 @@ class Button:
         self.caps = False
     def draw(self, frame):
         cv2.rectangle(frame, self.pos1, (self.pos1[0]+self.length[0], self.pos1[1]+self.length[1]), self.color, cv2.FILLED)
-        i = self.text in ["I", "i", "J", "j", ":", ",", ".", "^", "ENTER", "SPACE", "SHOW"]
-        j = self.text in ["m", "TAB", "DEL", "ESC"]
+        i = self.text in ["I", "i", "J", "j", ":", ",", "."]
+        j = self.text in ["m", "ENTER", "SPACE", "MOUSE"]
         cv2.putText(frame, self.text, (self.pos1[0]+15+10*i-10*j, self.pos1[1]+60), cv2.FONT_HERSHEY_COMPLEX, 1, (255, 255, 255), 5)
     def check(self, point):
         if self.pos1[0] < point[0] and point[0] < self.pos1[0]+self.length[0]:
