@@ -17,3 +17,5 @@ Directions:
     - Tap the tip of index and thumb on a letter in the camera display to type
     - Tap show to show the MediaPipe hand diagram
     - Tap esc to exit
+
+Use - as an escape key
