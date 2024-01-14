@@ -1,6 +1,11 @@
 Virtual keyboard and mouse using MediaPipe and Opencv
 
 Installations:
+  - Go to the folder in terminal
+  - pip install -r requirements.txt
+  - reboot
+
+If installation does not work, these are the packages
   - Pynput
   - Opencv
   - MediaPipe
